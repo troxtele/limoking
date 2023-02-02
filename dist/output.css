@@ -620,6 +620,10 @@ video {
   right: 1rem;
 }
 
+.-right-\[128\%\] {
+  right: -128%;
+}
+
 .top-1\/2 {
   top: 50%;
 }
@@ -638,6 +642,26 @@ video {
 
 .left-1\/2 {
   left: 50%;
+}
+
+.-right-\[1\%\] {
+  right: -1%;
+}
+
+.-right-\[120\%\] {
+  right: -120%;
+}
+
+.-right-\[125\%\] {
+  right: -125%;
+}
+
+.-right-\[150\%\] {
+  right: -150%;
+}
+
+.-right-\[151\%\] {
+  right: -151%;
 }
 
 .z-40 {
@@ -772,8 +796,8 @@ video {
   height: 1rem;
 }
 
-.h-\[40vh\] {
-  height: 40vh;
+.h-\[50vh\] {
+  height: 50vh;
 }
 
 .h-\[1px\] {
@@ -814,10 +838,6 @@ video {
 
 .h-\[9\.4rem\] {
   height: 9.4rem;
-}
-
-.h-\[50vh\] {
-  height: 50vh;
 }
 
 .max-h-\[500px\] {
@@ -1631,12 +1651,12 @@ video {
   font-size: 0.9rem;
 }
 
-.text-\[1\.5rem\] {
-  font-size: 1.5rem;
+.text-\[1\.7rem\] {
+  font-size: 1.7rem;
 }
 
-.text-\[1\.1rem\] {
-  font-size: 1.1rem;
+.text-\[1\.2rem\] {
+  font-size: 1.2rem;
 }
 
 .text-\[2\.7rem\] {
@@ -1664,22 +1684,6 @@ video {
 
 .text-\[\.9rem\] {
   font-size: .9rem;
-}
-
-.text-\[3rem\] {
-  font-size: 3rem;
-}
-
-.text-\[1\.7rem\] {
-  font-size: 1.7rem;
-}
-
-.text-\[1\.2rem\] {
-  font-size: 1.2rem;
-}
-
-.text-\[2\.8rem\] {
-  font-size: 2.8rem;
 }
 
 .font-medium {
@@ -1846,10 +1850,6 @@ video {
 .text-\[\#545454\] {
   --tw-text-opacity: 1;
   color: rgb(84 84 84 / var(--tw-text-opacity));
-}
-
-.text-\[2\.rem\] {
-  color: 2.rem;
 }
 
 .opacity-0 {
@@ -2471,13 +2471,12 @@ main:hover .swiper-pagination {
     padding-top: 1.5rem;
   }
 
-  .xs\:text-\[1\.8rem\] {
-    font-size: 1.8rem;
+  .xs\:text-\[2rem\] {
+    font-size: 2rem;
   }
 
-  .xs\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+  .xs\:text-\[3rem\] {
+    font-size: 3rem;
   }
 
   .xs\:text-2xl {
@@ -2505,17 +2504,14 @@ main:hover .swiper-pagination {
     line-height: 1.75rem;
   }
 
+  .xs\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .xs\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .xs\:text-\[3rem\] {
-    font-size: 3rem;
-  }
-
-  .xs\:text-\[2rem\] {
-    font-size: 2rem;
   }
 }
 
@@ -2530,22 +2526,6 @@ main:hover .swiper-pagination {
 
   .sm\:mt-10 {
     margin-top: 2.5rem;
-  }
-
-  .sm\:h-\[55vh\] {
-    height: 55vh;
-  }
-
-  .sm\:h-\[60vh\] {
-    height: 60vh;
-  }
-
-  .sm\:h-\[6vh\] {
-    height: 6vh;
-  }
-
-  .sm\:h-\[vh\] {
-    height: vh;
   }
 
   .sm\:h-\[65vh\] {
@@ -2596,10 +2576,6 @@ main:hover .swiper-pagination {
     gap: 0px;
   }
 
-  .sm\:gap-5 {
-    gap: 1.25rem;
-  }
-
   .sm\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -2630,8 +2606,8 @@ main:hover .swiper-pagination {
     line-height: 1.75rem;
   }
 
-  .sm\:text-5xl {
-    font-size: 3rem;
+  .sm\:text-6xl {
+    font-size: 3.75rem;
     line-height: 1;
   }
 
@@ -2650,13 +2626,13 @@ main:hover .swiper-pagination {
     line-height: 1.25rem;
   }
 
-  .sm\:text-\[2\.5rem\] {
-    font-size: 2.5rem;
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
-  .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
+  .sm\:text-\[2\.5rem\] {
+    font-size: 2.5rem;
   }
 
   .sm\:text-lg {
@@ -2724,22 +2700,6 @@ main:hover .swiper-pagination {
 
   .md\:h-\[490px\] {
     height: 490px;
-  }
-
-  .md\:h-\[0px\] {
-    height: 0px;
-  }
-
-  .md\:h-\[520px\] {
-    height: 520px;
-  }
-
-  .md\:h-\[570px\] {
-    height: 570px;
-  }
-
-  .md\:h-\[500px\] {
-    height: 500px;
   }
 
   .md\:w-16 {
@@ -2973,18 +2933,6 @@ main:hover .swiper-pagination {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:h-\[850px\] {
-    height: 850px;
-  }
-
-  .\32xl\:h-\[900px\] {
-    height: 900px;
-  }
-
-  .\32xl\:h-\[0px\] {
-    height: 0px;
-  }
-
   .\32xl\:h-\[880px\] {
     height: 880px;
   }
